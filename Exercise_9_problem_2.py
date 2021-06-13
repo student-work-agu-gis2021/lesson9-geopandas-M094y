@@ -30,7 +30,7 @@ import geopandas as gpd
 from pyproj import CRS
 
 # Convert DataFrame into a GeoDataFrame
-geo=gpd.GeoDataFrame(data, geometry = 'geometry', crs = CRS.from_epsg(4326).to_wkt())
+geo = gpd.GeoDataFrame(data, geometry = 'geometry', crs = CRS.from_epsg(4326).to_wkt())
 # CODE FOR TESTING YOUR SOLUTION
 
 # Check the geodataframe head
